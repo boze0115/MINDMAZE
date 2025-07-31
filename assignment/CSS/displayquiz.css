@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-color: white;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9ED9FB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure header stays on top */
+}
+
+header.container img.logo {
+    width: 25%;
+    max-width: 100px;
+    height: 25%;
+    max-height: 150px;
+    margin-left: 20px;
+    margin-right: 0;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+header.container img {
+    padding: 0;
+    margin: 0;
+}
+
+header.container nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header.container nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1.5vw;
+}
+
+.logo:hover {
+    background: pink;
+}
+
+.quiz-questions {
+    margin-top: 50px; /* Adjust as needed */
+    padding-top: 20px;
+    max-height: calc(100vh - 150px); /* Adjust to leave space for the header */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.question {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px; /* Adjust the space between questions */
+    background-color: #dde6fc;
+}
+
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #9ED9FB;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 1000; /* Ensure button stays on top */
+}
+
+.back-button:hover {
+    background-color: #7DBAE5;
+}
+

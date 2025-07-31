@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-color: white;
+    overflow: hidden;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9ED9FB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    right:0;
+}
+header.container img.logo{
+    width: 25%;
+    max-width: 120px;
+    height: 25%;
+    max-height: 150px;
+    margin-left:20px;
+    margin-right:0;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+ 
+.logo:hover{
+    background:pink;
+}
+
+
+main {
+    margin: 170px;
+    
+}
+
+.score h2{
+    text-align: center;
+    font-size: 50px;
+
+}
+.score p{
+    background-color: #9ED9FB;
+    border-radius: 50%; /* Make it round */
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+
+
+.next-button {
+    display: block;
+    margin: auto; /* Center horizontally */
+    padding: 10px 50px;
+    font-size: 16px;
+    background-color: #9ED9FB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+}

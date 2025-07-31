@@ -1,0 +1,144 @@
+table, footer {
+    border-collapse:collapse;
+    width: 70%;
+    margin:0 auto;
+}
+body {
+    margin: 0;
+    background-color: white;
+    overflow:  hidden;
+}
+.container{
+    width:100%;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9ED9FB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 1000;
+}
+header.container img.logo{
+    width: 25%;
+    max-width: 100px;
+    height: 25%;
+    max-height: 150px;
+    margin-left:20px;
+    margin-right:0;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s;
+}
+header.container img{
+    padding:0;
+    margin:0;
+}
+ 
+header.container nav{
+    display:flex;
+    flex-wrap: wrap;
+}
+header.container nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    padding:10px 30px;
+    font-size: 1.5vw;
+}
+.logo:hover{
+    background:pink;
+}
+.container .pagetitle {
+    text-align: center;
+    padding-top: 250px;
+    margin-top: 0;
+ 
+}
+ 
+.container .pagetitle h3 {
+    font-size: 8em;
+    margin: 0;
+   
+}
+
+div.no {
+    counter-reset: css-counter 0; 
+  }
+div.no p{
+    counter-increment: css-counter 1;
+}
+
+div.Question{
+    color: #f9fbfd;
+    padding: 10px 10px;
+    text-align:center;
+    font-size: 50px;
+    margin-top: 80px;
+    background-color: #9ED9FB;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+   }
+
+.questionInput{
+    background: #9ED9FB;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    
+    width:80%;
+    padding:10px;
+    margin:20px auto ;
+    border-radius: 4px ;
+    cursor:pointer;
+    border:none;
+}
+
+.Options {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.optionInput {
+    margin-bottom: 10px; 
+    text-align: center;
+    font-size: 30px;
+    height: 40px;
+    background-color: #9ED9FB;
+    padding: 10px;
+    width: 90%;
+    border-radius: 6px ;
+    cursor:pointer;
+    border:none;
+}
+
+.Answer {
+    text-align: center; 
+}
+
+.buttons {
+    text-align: center;
+    padding: 10px;
+}
+
+button[type="submit"] {
+    background-color:  #9ED9FB;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }

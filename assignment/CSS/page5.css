@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+.container{
+    width:100%;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9ED9FB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    right:0;
+}
+header.container img.logo{
+    width: 25%;
+    max-width: 100px;
+    height: 25%;
+    max-height: 150px;
+    margin-left:20px;
+    margin-right:0;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s;
+}
+header.container img{
+    padding:0;
+    margin:0;
+}
+ 
+header.container nav{
+    display:flex;
+    flex-wrap: wrap;
+}
+header.container nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    padding:10px 30px;
+    font-size: 1.5vw;
+}
+.logo:hover{
+    background:pink;
+}
+.container .pagetitle {
+    text-align: center;
+    padding-top: 250px;
+    margin-top: 0;
+ 
+}
+ 
+.container .pagetitle h3 {
+    font-size: 8em;
+    margin: 0;
+   
+}
+.container h1{
+    margin-top:70px;
+    margin-left:50px;
+}
+.questionpage{
+    border: 1px solid black;
+    padding:10px 20px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.questionpage .question p{
+    padding:30px;
+    border: 2px solid black;
+    width:75%;
+    margin:30px auto;
+}
+.answer table{
+    width:90%;
+}
+.answer table,tr,td{
+    border: 1px solid black;
+    margin:0 auto;
+    padding:35px;
+}
+.answer .grade{
+    width: 75%;
+}
+.answer .percentage{
+    width: 25%;
+}
